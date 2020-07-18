@@ -3,8 +3,8 @@
     <vue-particles color="#A3C8FF" class="top-particle" :moveSpeed="1"></vue-particles>
     <div class="top-header-img-overlay" />
     <img class="top-header-img" :src="img" />
-    <div class="header-content d-flex flex-column align-items-center">
-      <h1 class="text-light font-weight-bold">Change Your Life!</h1>
+    <div class="header-content d-flex flex-column justify-content-center align-items-center">
+      <h1 class="head-title mt-5 text-light font-weight-bold">Change Your Life!</h1>
       <b-button
         v-scroll-to="'#section-works'"
         size="lg"
@@ -30,6 +30,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.head-title{
+  font-size: 3rem;
+}
+
 .topimg-wrapper {
   width: 100%;
   height: 100vh;
@@ -47,7 +51,6 @@ export default {
   .header-content {
     width: 100%;
     height: 100%;
-    padding-top: 200px;
 
     .top-header-button {
       width: 200px;
