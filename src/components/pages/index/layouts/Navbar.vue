@@ -13,10 +13,10 @@
         <b-nav-item v-scroll-to="'#section-gallery'">Gallery</b-nav-item>
         <b-nav-item v-scroll-to="'#section-contactus'">Contact</b-nav-item>
         <b-nav-item>
-          <router-link to="/chat" class="bootstrap-nav-item">Chat</router-link>
+          <router-link to="/chat" class="bootstrap-nav-item">Chat App</router-link>
         </b-nav-item>
         <b-nav-item>
-          <router-link to="/todo" class="bootstrap-nav-item">Todo</router-link>
+          <router-link to="/todo" class="bootstrap-nav-item">Todo App</router-link>
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
